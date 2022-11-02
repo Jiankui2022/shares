@@ -20,7 +20,7 @@ Here are the steps to revert the farm to trial status and provide a chance to ty
 3. Update the following registry keys on all SharePoint servers:
     
       * HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Shared Tools\Web Server Extensions\16.0\WSS\InstalledProducts
-      * Change the value of {90160000-1167-0000-1000-0000000FF1CE} from 8662EA53-55DB-4A44-B72A-5E10822F9AAB to AE423093-CA28-4C04-A566-631C39C5D186
+        * Change the value of {90160000-1167-0000-1000-0000000FF1CE} from 8662EA53-55DB-4A44-B72A-5E10822F9AAB to AE423093-CA28-4C04-A566-631C39C5D186
 
 4. Update the SharePoint Config database.
 
