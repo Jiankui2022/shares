@@ -1,5 +1,7 @@
 # Revert SP19 to trial
 
+> Microsoft strictly prohibits all third-party changes to SharePoint Server databases. During a support incident, database changes that are made under the guidance of a Microsoft SharePoint Server support agent won't cause an unsupported database state. You shouldn't reapply the scripts or changes that are provided by Microsoft SharePoint Server Support outside a support incident.
+
 There are no built-in commands to configure and change the license status for current farm. After reviewing the product code carefully, we have to update the configuration database directly to fix this issue.
 
 Here are the steps to revert the farm to trial status and provide a chance to type the product key. I’ve tested in my lab for these steps.
